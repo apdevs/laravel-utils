@@ -1,0 +1,27 @@
+{
+    "name": "apdevs/laravel-utils",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.*"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "JManuel Ruiz",
+            "email": "jmanuel.ruiz.perez@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "APDevs\\LaravelUtils\\LaravelUtilsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "APDevs\\LaravelUtils\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
