@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Traits;
-
 namespace APDevs\LaravelUtils\Http\Traits\Resources;
+
+use Illuminate\Http\Request;
 
 trait UpdateTrait
 {
