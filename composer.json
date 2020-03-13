@@ -2,7 +2,7 @@
     "name": "apdevs/laravel-utils",
     "type": "library",
     "require": {
-        "laravel/framework": "5.*"
+        "laravel/framework": ">=5.0"
     },
     "license": "MIT",
     "authors": [
