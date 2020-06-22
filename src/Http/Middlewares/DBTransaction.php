@@ -1,6 +1,6 @@
 <?php
 
-namespace APDevs\LaravelUtils\Http\Middleware;
+namespace APDevs\LaravelUtils\Http\Middlewares;
 
 use DB;
 use Closure;
