@@ -1,6 +1,7 @@
 {
     "name": "apdevs/laravel-utils",
     "type": "library",
+    "version": "0.1.0",
     "require": {
         "laravel/framework": ">=5.0"
     },
@@ -8,7 +9,7 @@
     "authors": [
         {
             "name": "JManuel Ruiz",
-            "email": "jmanuel.ruiz.perez@gmail.com"
+            "email": "jmanuel@apdevs.com"
         }
     ],
     "extra": {
@@ -23,5 +24,11 @@
             "APDevs\\LaravelUtils\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
